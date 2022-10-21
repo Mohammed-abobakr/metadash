@@ -1100,7 +1100,14 @@ color: #333;
         margin-left: 10px;
     }
 }
-
+@media (max-width: 767px) {
+    .our-projects .section-c {
+        flex-wrap: wrap;
+    }
+    .our-projects .section-c span {
+        margin: 5px;
+    }
+}
 @keyframes scroll-motion {
     form {
         color: #6a2aa0;
